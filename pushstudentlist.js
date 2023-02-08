@@ -25,7 +25,7 @@ function pushShoppingLists(to) {
     let lineMessageObject = [
       {
         type: "text",
-        text: "買い物リストは空っぽです。"
+        text: "リストは空っぽです。"
       }
     ];
     return pushLine(lineMessageObject, to);
